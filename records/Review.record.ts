@@ -19,7 +19,7 @@ export class ReviewRecord implements Review_Record {
             const [allReviews] = await pool.execute("SELECT * from `reviews`");
             return allReviews as ReviewRecord[];
         } catch (err) {
-            throw new Error("Error occurred in getAll() " + err.message);
+            throw new Error("Error in ReviewRecord.getAll() " + err.message);
         }
     }
 

@@ -18,7 +18,7 @@ export async function reviewGenerator() {
         )
         return reviewRecord;
     } catch (err) {
-        throw new Error(`Error occurred in reviewGenerator ` + err.message);
+        throw new Error(`Error occurred in reviewGenerator() ` + err.message);
     }
 
 }

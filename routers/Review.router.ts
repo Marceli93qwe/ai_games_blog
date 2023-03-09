@@ -7,12 +7,8 @@ export const ReviewRouter = Router();
 
 ReviewRouter
     .get("/", async (req, res) => {
-        try {
-            const allReviews = await ReviewRecord.getAll();
-            res.json(allReviews);
-        } catch (err) {
-            throw new Error("Error in request GET:/reviews/");
-        }
+        const allReviews = await ReviewRecord.getAll();
+        res.json(allReviews);
     })
     .get("/:id", async (req, res) => {
         const {id} = req.params;
