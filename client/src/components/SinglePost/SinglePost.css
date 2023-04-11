@@ -1,0 +1,41 @@
+.post-wrapper {
+    min-height: 83vh;
+
+    margin-top: 10vh;
+}
+
+.review {
+    width: 90vw;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 auto 3rem;
+}
+
+.review-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.review-release-date,
+.review-date {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+
+.review-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    width: 80%;
+    max-width: 720px;
+    text-align: justify;
+    color: #444;
+    margin: 2rem 0;
+}
+
+
+

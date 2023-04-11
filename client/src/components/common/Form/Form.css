@@ -1,0 +1,49 @@
+.contact-form {
+    width: 90vw;
+    max-width: 660px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea,
+.form-group input[type="password"]
+{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus,
+.form-group input[type="password"]
+{
+    border-color: #777;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+

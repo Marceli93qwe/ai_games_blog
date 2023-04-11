@@ -1,0 +1,32 @@
+/* Slider.css */
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+    max-width: 960px;
+    overflow: hidden;
+}
+
+.slider__image {
+    opacity: 0;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slider__image--active {
+    opacity: 1;
+}
+
+.slider__button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.slick-arrow {
+    background-color: red !important;
+}
+

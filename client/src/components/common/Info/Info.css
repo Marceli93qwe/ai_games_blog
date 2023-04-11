@@ -1,0 +1,49 @@
+.info-container {
+    margin: 0 auto;
+    gap: 4rem;
+    width: 90vw;
+    padding: 3rem;
+    max-width: 960px;
+
+}
+
+.info-text {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 3vh;
+}
+
+.info-text button {
+    display: block;
+    width: 15rem;
+}
+
+
+.rotate-animation {
+    animation: rotate 2s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes info-text-animation {
+    0% {
+        color: #404040;
+    }
+    50% {
+        color: #000000;
+    }
+    100% {
+        color: #404040;
+    }
+}

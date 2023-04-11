@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+/*commons*/
+.decorated {
+    font-family: 'Stick No Bills', sans-serif;;
+}
+
+.bordered {
+    background-color: #dbf4ff21;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+    border-radius: .8rem;
+}
+
+/*flex column*/
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*zoom effect on hover for elements with a defined size*/
+* .zoomable {
+    overflow: hidden;
+}
+
+.zoomable:hover {
+    transform: scale(1.1);
+}
+
+/*Gradient button*/
+.button {
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: .8rem;
+    background: linear-gradient(to right, #434343 0%, #000000 100%);
+}
+
+.button:hover {
+    background: linear-gradient(to right, #000000 0%, #434343 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+#root {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body {
+    background-color: #eee;
+    overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+    height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #1f1f1f;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}

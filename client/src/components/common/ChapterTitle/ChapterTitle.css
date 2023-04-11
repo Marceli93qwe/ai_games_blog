@@ -1,0 +1,11 @@
+.chapter-title {
+    letter-spacing: 1px;
+    font-size: 4.4rem;
+    color: #434343;
+    padding: calc(4.4rem + 10px) 10px 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: calc(4.4rem + 10px);
+}
