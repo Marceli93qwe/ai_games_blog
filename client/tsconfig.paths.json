@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "types": [
-        "../ai_games_blog/types"
+        "../backend/types"
       ]
     }
   }
