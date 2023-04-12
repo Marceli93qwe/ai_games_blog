@@ -15,6 +15,8 @@ The frontend of the application is designed to display "review" data downloaded 
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `TypeScript`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `React`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `react-router`
+# My thougths
+I encountered several problems while developing the application. The main one was not planning well enough what I'm going to do and organizing my work with Git. In addition, I also tried to add the ability to register and log in with a passport. Unfortunately, I approached it too confidently and it turned out that I am not able to add it to the application right away without practicing (which I did not have enough time for). I also think that there are tests to be improved on the Backend, those on the front I have to do from scratch. I also think React components could be more reusable. I also need to add a path in React Router to which the user will be redirected when he gives a completely wrong path. I plan to start working on these things further on the project
 # DEMO
 A short demonstration of how the application works
 ## Home page
